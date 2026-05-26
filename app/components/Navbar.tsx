@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ShoppingCart, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { useSelector} from "react-redux";
+import type { RootState } from '../store/store'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

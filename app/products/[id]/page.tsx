@@ -4,7 +4,7 @@ import Footer from "../../components/Footer"
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../../store/cartSlice.ts";
+import { addToCart } from "../../store/cartSlice";
 
 interface Product {
   id: number;
