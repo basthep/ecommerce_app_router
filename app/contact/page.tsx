@@ -1,6 +1,6 @@
 "use client";
 
-import Footer from "../components/Footer.tsx"
+import Footer from "../components/Footer"
 
 const ContactPage = () => {
   return (

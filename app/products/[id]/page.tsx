@@ -1,6 +1,6 @@
 "use client";
 
-import Footer from "../../components/Footer.tsx"
+import Footer from "../../components/Footer"
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { useDispatch } from "react-redux";

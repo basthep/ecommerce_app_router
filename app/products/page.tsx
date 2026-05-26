@@ -1,7 +1,7 @@
 // app/products/page.tsx
 
-import ProductCard from "../components/ProductCard.tsx"
-import Footer from "../components/Footer.tsx"
+import ProductCard from "../components/ProductCard"
+import Footer from "../components/Footer"
 import Link from "next/link";
 
 interface Product {

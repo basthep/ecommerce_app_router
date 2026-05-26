@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Footer from "../components/Footer.tsx"
+import Footer from "../components/Footer"
 
 const AboutPage = () => {
   return (
