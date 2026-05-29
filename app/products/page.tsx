@@ -54,7 +54,7 @@ const ProductsPage = () => {
 
   return (
     <>
-      <main className="min-h-screen bg-gray-50 px-6 pt-28">
+      <main className="min-h-screen bg-gray-50 px-6 pt-28 pb-10">
 
         {/* HEADER */}
         <div className="max-w-7xl mx-auto mb-14">
