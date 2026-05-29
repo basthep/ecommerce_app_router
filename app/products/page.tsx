@@ -17,7 +17,7 @@ async function getProducts(): Promise<Product[]> {
     const response = await fetch(
       "https://fakestoreapi.com/products",
       {
-        cache: "no-store",
+        next: { revalidate: 60 },
       }
     );
 
