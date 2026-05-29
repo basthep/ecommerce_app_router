@@ -13,11 +13,24 @@ interface Product {
 }
 
 async function getProducts(): Promise<Product[]> {
-  const response = await fetch("https://fakestoreapi.com/products", {
-    cache: "no-store",
-  });
+  try {
+    const response = await fetch(
+      "https://fakestoreapi.com/products",
+      {
+        cache: "no-store",
+      }
+    );
 
-  return response.json();
+    if (!response.ok) {
+      throw new Error("Failed to fetch products");
+    }
+
+    return response.json();
+
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
 }
 
 const ProductsPage = async () => {
